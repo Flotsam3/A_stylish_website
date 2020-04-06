@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "live-server",
     "scss-watch": "watch 'npm run scss-compile' source/styles",
-    "scss-compile": "node-sass source/styles/styles.scss > styles/styles.css",
+    "scss-compile": "node-sass -w source/styles -o styles",
     "sass-lint": "sass-lint -c sass-lint.yaml 'source/styles/**/*.scss' -v -q"
   },
   "author": "",
