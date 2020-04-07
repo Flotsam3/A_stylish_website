@@ -20,7 +20,7 @@ header {
   header .layer {
     height: 100%;
     width: 100%;
-    background-color: rgba(3, 11, 34, 0.7); }
+    background-color: rgba(38, 42, 69, 0.9); }
     header .layer .menu p {
       display: none; }
     header .layer .menu {
@@ -79,7 +79,7 @@ main .aliquam {
   position: relative;
   height: 50vh;
   width: 100vw;
-  background-color: rgba(76, 183, 202, 0.9); }
+  background-color: rgba(119, 191, 215, 0.9); }
   main .aliquam img {
     position: absolute;
     z-index: -1;
@@ -104,7 +104,7 @@ main .tempus {
   position: relative;
   height: 50vh;
   width: 100vw;
-  background-color: rgba(124, 71, 221, 0.9); }
+  background-color: rgba(143, 133, 192, 0.9); }
   main .tempus img {
     position: absolute;
     z-index: -1;
@@ -129,7 +129,7 @@ main .magna {
   position: relative;
   height: 50vh;
   width: 100vw;
-  background-color: rgba(233, 71, 21, 0.9); }
+  background-color: rgba(227, 146, 137, 0.9); }
   main .magna img {
     position: absolute;
     z-index: -1;
@@ -154,7 +154,7 @@ main .ipsum {
   position: relative;
   height: 50vh;
   width: 100vw;
-  background-color: rgba(248, 180, 32, 0.9); }
+  background-color: rgba(219, 176, 137, 0.9); }
   main .ipsum img {
     position: absolute;
     z-index: -1;
@@ -179,7 +179,7 @@ main .consequat {
   position: relative;
   height: 50vh;
   width: 100vw;
-  background-color: rgba(99, 126, 214, 0.9); }
+  background-color: rgba(126, 151, 207, 0.9); }
   main .consequat img {
     position: absolute;
     z-index: -1;
@@ -204,7 +204,7 @@ main .etiam {
   position: relative;
   height: 50vh;
   width: 100vw;
-  background-color: rgba(98, 221, 160, 0.9); }
+  background-color: rgba(123, 179, 153, 0.9); }
   main .etiam img {
     position: absolute;
     z-index: -1;
