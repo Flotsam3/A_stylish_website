@@ -16,6 +16,7 @@ header {
   background-image: url("/images/banner-landscape.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left;
   color: #a8b1bb; }
   header .layer {
     height: 100%;
@@ -38,11 +39,11 @@ header {
       width: 100%;
       padding: 100px 25px 0 25px; }
       header .layer .header__main h1 {
-        font-size: 2rem; }
+        font-size: 2.1rem; }
       header .layer .header__main hr {
-        width: 310px;
+        width: calc(100vw - 50px);
         margin-top: 15px;
-        margin-right: 150px;
+        margin-left: 0px;
         color: whitesmoke;
         border-style: solid;
         border-width: 1px; }
@@ -77,8 +78,8 @@ main .panel-text {
 
 main .aliquam {
   position: relative;
-  height: 50vh;
-  width: 100vw;
+  height: 400px;
+  width: 100%;
   background-color: rgba(119, 191, 215, 0.9); }
   main .aliquam img {
     position: absolute;
@@ -95,15 +96,15 @@ main .aliquam {
     main .aliquam__content hr {
       width: 200px;
       margin-top: 15px;
-      margin-right: 150px;
+      margin-left: 0;
       color: whitesmoke;
       border-style: solid;
       border-width: 1px; }
 
 main .tempus {
   position: relative;
-  height: 50vh;
-  width: 100vw;
+  height: 400px;
+  width: 100%;
   background-color: rgba(143, 133, 192, 0.9); }
   main .tempus img {
     position: absolute;
@@ -120,15 +121,15 @@ main .tempus {
     main .tempus__content hr {
       width: 200px;
       margin-top: 15px;
-      margin-right: 150px;
+      margin-left: 0;
       color: whitesmoke;
       border-style: solid;
       border-width: 1px; }
 
 main .magna {
   position: relative;
-  height: 50vh;
-  width: 100vw;
+  height: 400px;
+  width: 100%;
   background-color: rgba(227, 146, 137, 0.9); }
   main .magna img {
     position: absolute;
@@ -145,15 +146,15 @@ main .magna {
     main .magna__content hr {
       width: 200px;
       margin-top: 15px;
-      margin-right: 150px;
+      margin-left: 0;
       color: whitesmoke;
       border-style: solid;
       border-width: 1px; }
 
 main .ipsum {
   position: relative;
-  height: 50vh;
-  width: 100vw;
+  height: 400px;
+  width: 100%;
   background-color: rgba(219, 176, 137, 0.9); }
   main .ipsum img {
     position: absolute;
@@ -170,15 +171,15 @@ main .ipsum {
     main .ipsum__content hr {
       width: 200px;
       margin-top: 15px;
-      margin-right: 150px;
+      margin-left: 0;
       color: whitesmoke;
       border-style: solid;
       border-width: 1px; }
 
 main .consequat {
   position: relative;
-  height: 50vh;
-  width: 100vw;
+  height: 400px;
+  width: 100%;
   background-color: rgba(126, 151, 207, 0.9); }
   main .consequat img {
     position: absolute;
@@ -195,15 +196,15 @@ main .consequat {
     main .consequat__content hr {
       width: 200px;
       margin-top: 15px;
-      margin-right: 150px;
+      margin-left: 0;
       color: whitesmoke;
       border-style: solid;
       border-width: 1px; }
 
 main .etiam {
   position: relative;
-  height: 50vh;
-  width: 100vw;
+  height: 400px;
+  width: 100%;
   background-color: rgba(123, 179, 153, 0.9); }
   main .etiam img {
     position: absolute;
@@ -220,7 +221,7 @@ main .etiam {
     main .etiam__content hr {
       width: 200px;
       margin-top: 15px;
-      margin-right: 150px;
+      margin-left: 0;
       color: whitesmoke;
       border-style: solid;
       border-width: 1px; }
@@ -241,7 +242,7 @@ main .etiam {
     line-height: 30px; }
   .massa-libero hr {
     width: 150px;
-    margin-right: 220px;
+    margin-left: 0;
     color: whitesmoke;
     border-style: solid;
     border-width: 1px; }

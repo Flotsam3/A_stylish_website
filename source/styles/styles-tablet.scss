@@ -1,0 +1,62 @@
+@import "_reset";
+
+header {
+    height: 43vh;
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .layer .menu p {
+        display: initial;
+        margin-right: 25px;
+        @extend %reset;
+    }
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+}
+
+.massa-libero {
+    height: 36vh;
+}
+
+.contact {
+    height: 60vh;
+
+    .contact__form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "name email"
+            "message message"
+            "buttons .";
+        height: auto;
+        margin: 0 25px; 
+
+       .contact__name {
+           grid-area: name;
+           width: 90%;
+       }
+
+       .contact__email {
+            grid-area: email;
+            width: calc(100% - 50px);
+        }
+
+        .contact__message {
+            grid-area: message;
+            width: calc(100% - 50px);
+        }
+
+        .contact__buttons {
+            grid-area: buttons;
+        }       
+    }
+}

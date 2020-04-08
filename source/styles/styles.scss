@@ -1,18 +1,5 @@
 @import "_reset";
 
-%reset {
-    margin: 0;
-    padding: 0;
-}
-
-%test {
-    outline: 3px solid lime;
-}
-
-$panel-header: 1.7rem;
-$main-text:1rem;
-$main-font-family: 'Roboto', sans-serif;
-
 body {
     color: whitesmoke;
     font-family: 'Roboto Condensed', sans-serif;
@@ -25,6 +12,7 @@ header {
     background-image: url('/images/banner-landscape.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left;
     color: rgb(168, 177, 187);
 
     .layer {
@@ -57,13 +45,13 @@ header {
 
                 h1 {
                     @extend %reset;
-                    font-size: 2rem;
+                    font-size: 2.1rem;
                 }
 
                 hr {
-                    width: 310px;
+                    width: calc(100vw - 50px);
                     margin-top: 15px;
-                    margin-right: 150px;
+                    margin-left: 0px;
                     color: whitesmoke;
                     border-style: solid;
                     border-width: 1px;
@@ -120,8 +108,8 @@ main {
 
     .aliquam {
         position: relative;
-        height: 50vh;
-        width: 100vw;
+        height: 400px;
+        width: 100%;
         background-color: rgba(119, 191, 215, 0.9);
     
         img{
@@ -142,7 +130,7 @@ main {
             hr {
                 width: 200px;
                 margin-top: 15px;
-                margin-right: 150px;
+                margin-left: 0;
                 color: whitesmoke;
                 border-style: solid;
                 border-width: 1px;
@@ -153,8 +141,8 @@ main {
 
     .tempus {
         position: relative;
-        height: 50vh;
-        width: 100vw;
+        height: 400px;
+        width: 100%;
         background-color: rgba(143, 133, 192, 0.9);
     
         img{
@@ -175,7 +163,7 @@ main {
             hr {
                 width: 200px;
                 margin-top: 15px;
-                margin-right: 150px;
+                margin-left: 0;
                 color: whitesmoke;
                 border-style: solid;
                 border-width: 1px;
@@ -185,8 +173,8 @@ main {
 
     .magna {
         position: relative;
-        height: 50vh;
-        width: 100vw;
+        height: 400px;
+        width: 100%;
         background-color: rgba(227, 146, 137, 0.9);
     
         img{
@@ -207,7 +195,7 @@ main {
             hr {
                 width: 200px;
                 margin-top: 15px;
-                margin-right: 150px;
+                margin-left: 0;
                 color: whitesmoke;
                 border-style: solid;
                 border-width: 1px;
@@ -217,8 +205,8 @@ main {
 
     .ipsum {
         position: relative;
-        height: 50vh;
-        width: 100vw;
+        height: 400px;
+        width: 100%;
         background-color: rgba(219, 176, 137, 0.9);
     
         img{
@@ -239,7 +227,7 @@ main {
             hr {
                 width: 200px;
                 margin-top: 15px;
-                margin-right: 150px;
+                margin-left: 0;
                 color: whitesmoke;
                 border-style: solid;
                 border-width: 1px;
@@ -249,8 +237,8 @@ main {
 
     .consequat {
         position: relative;
-        height: 50vh;
-        width: 100vw;
+        height: 400px;
+        width: 100%;
         background-color: rgba(126, 151, 207, 0.9);
     
         img{
@@ -271,7 +259,7 @@ main {
             hr {
                 width: 200px;
                 margin-top: 15px;
-                margin-right: 150px;
+                margin-left: 0;
                 color: whitesmoke;
                 border-style: solid;
                 border-width: 1px;
@@ -281,8 +269,8 @@ main {
 
     .etiam {
         position: relative;
-        height: 50vh;
-        width: 100vw;
+        height: 400px;
+        width: 100%;
         background-color: rgba(123, 179, 153, 0.9);
     
         img{
@@ -303,7 +291,7 @@ main {
             hr {
                 width: 200px;
                 margin-top: 15px;
-                margin-right: 150px;
+                margin-left: 0;
                 color: whitesmoke;
                 border-style: solid;
                 border-width: 1px;
@@ -333,7 +321,7 @@ main {
 
     hr {
         width: 150px;
-        margin-right: 220px;
+        margin-left: 0;
         color: whitesmoke;
         border-style: solid;
         border-width: 1px;
