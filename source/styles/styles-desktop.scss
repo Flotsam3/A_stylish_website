@@ -1,0 +1,191 @@
+@import "_reset";
+
+header {
+    background-size: cover;
+    background-position-y: top;
+    height: 100vh;
+
+    .layer {
+
+        .menu {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 50px;
+        }
+
+        .menu p {
+            display: initial;
+            margin-right: 25px;
+            @extend %reset;
+        }
+
+        .header__main {
+            padding: 250px 75px 0 75px;
+
+            &__bottom {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 780px;
+            }
+        
+            h1 {
+                font-size: 4.8rem;
+            }
+
+            hr {
+                width: calc(100vw - 175px);
+                margin-top: 15px
+            }   
+
+            p {
+                width: 490px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+// Button get-started
+
+.get-started {
+    height: 60px;
+    width: 280px;
+    margin-top: 0;
+    padding-left: 30px;
+    font-size: 1.2rem;
+    letter-spacing: 2.5px;
+
+    img {
+        transform: scale(1.8, 1);
+        padding-left: 25px;
+    }
+}
+
+// -------------------------------------
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80vh 80vh 80vh;
+    grid-template-areas: 
+        "aliquam aliquam tempus tempus tempus"
+        "magna magna magna ipsum ipsum"
+        "consequat consequat etiam etiam etiam";
+
+        .aliquam,
+        .tempus,
+        .magna,
+        .ipsum,
+        .consequat,
+        .etiam {
+            height: auto;
+
+            &__content {
+                padding: 0 20px 0 80px;
+            }
+
+            img{
+                height: 100%;
+                object-fit: cover;
+                object-position: initial;
+            }
+        }
+
+        .aliquam {
+            grid-area: aliquam;
+        }
+
+        .tempus {
+            grid-area: tempus;
+        }
+
+        .magna {
+            grid-area: magna;
+        }
+
+        .ipsum {
+            grid-area: ipsum;
+        }
+
+        .consequat {
+            grid-area: consequat;
+        }
+
+        .etiam {
+            grid-area: etiam;
+        }
+}
+
+.massa-libero {
+    height: 40vh;
+    width: 100vw;
+    padding: 80px;
+}
+
+.bottom {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(36, 41, 67);
+
+    .contact {
+        justify-content: start;
+        height: 100%;
+        width: 60%;
+        padding-top: 50px;
+        background-color: transparent;
+    
+        .contact__form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            grid-template-areas: 
+                "name email"
+                "message message"
+                "buttons .";
+            height: auto;
+            width: 90%;
+            margin: 0 40px 0 80px; 
+    
+           .contact__name {
+               grid-area: name;
+               width: 90%;
+           }
+    
+           .contact__email {
+                grid-area: email;
+                width: calc(100% - 50px);
+            }
+    
+            .contact__message {
+                grid-area: message;
+                width: calc(100% - 50px);
+            }
+    
+            .contact__buttons {
+                grid-area: buttons;
+            }       
+        }
+    }
+
+    footer {
+        height: 100%;
+        width: 40%;
+
+        .footer__email,
+        .footer__phone {
+            align-items: center;
+            height: 10%;
+
+            .footer__info {
+                padding-top: 50px;
+            }
+        }
+
+        .footer__address,
+        .footer__social-media {
+            height: 15%;
+        }
+    }
+}
